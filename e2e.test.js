@@ -16,6 +16,7 @@ describe("posiitf case", async () => {
       "appium:appActivity": ".MainActivity",
     },
   };
+
   describe("percobaan login", async () => {
     it("valid ", async () => {
       const driver = await remote(option);
